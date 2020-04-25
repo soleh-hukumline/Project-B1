@@ -1,0 +1,83 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+        max-width: 100%;
+        float: none;
+        height: auto;
+        margin: 0px 0px 15px 0px;
+
+    }
+
+    .card h2 {
+        font-size: 18px;
+    }
+
+    .card p {
+        padding: 0px 10px 10px 10px;
+    }
+
+    .lesson {
+        width: 100%;
+        margin-bottom: 10px;
+        border-bottom: 1px dashed #ccc;
+        padding: 10px;
+        float: none;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 5px
+    }
+
+    footer .container {
+        text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card {
+        max-width: 40%;
+        height: 550px;
+        margin-left: 47px;
+        margin-bottom: 47px;
+    }
+
+    .card img {
+        height: 50%;
+    }
+
+    .card p {
+        padding: 0px 10px 10px 10px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .card {
+        max-width: 25%;
+        height: 550px;
+        margin-left: 60px;
+        margin-bottom: 60px;
+    }
+
+    input,
+    textarea {
+        width: 60%;
+        padding: 10px
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
